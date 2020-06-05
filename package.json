@@ -1,0 +1,20 @@
+{
+  "name": "node_express_crud",
+  "version": "1.0.0",
+  "description": "basic node and express crud api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runServer": "nodemon server"
+  },
+  "author": "Ansong Wiredu George",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
