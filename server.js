@@ -13,7 +13,7 @@ connectDB();
 //initilise express app
 const app = express();
 
-//Body parser
+//Body parser that allows
 app.use(express.json());
 
 //route files

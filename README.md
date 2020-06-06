@@ -1,6 +1,6 @@
-#### Basic Node and Express CRUD API
+## Basic Node and Express CRUD API
 
-## Create,Update,Delete and update user data
+### Create,Update,Delete and update user data
 
 Basci CRUD API used to perform CRUD operations with user information
 

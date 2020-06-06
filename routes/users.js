@@ -4,9 +4,20 @@ const express = require("express");
 const router = express.Router();
 
 //importing controller methods
-const { createUser } = require("../controllers/users");
+const {
+  createUser,
+  getUserInfo,
+  getAllUsers,
+  updateUserInfo,
+  deleteUserInfo,
+} = require("../controllers/users");
 
-router.route("/").post(createUser);
+router.route("/").post(createUser).get(getAllUsers);
+router
+  .route("/:id")
+  .get(getUserInfo)
+  .put(updateUserInfo)
+  .delete(deleteUserInfo);
 
 //export router
 module.exports = router;
